@@ -1,0 +1,23 @@
+# mavlink-lattice-bridge
+#
+# Local secrets and caches - never commit.
+.env
+.env.local
+*.pyc
+__pycache__/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.idea/
+.vscode/
+*.log
+dist/
+build/
+cpp/build/
+out/
+.vs/
+*.egg-info/
+*.obj
+*.pdb
+*.exe

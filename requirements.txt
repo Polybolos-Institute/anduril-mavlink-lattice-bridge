@@ -1,0 +1,4 @@
+requests>=2.31.0
+python-dotenv>=1.0.0
+# Optional for live MAVLink UDP (omit if pip fails on your Python):
+# pymavlink>=2.4.41
