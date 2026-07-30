@@ -118,3 +118,11 @@ MIT - see [LICENSE](LICENSE).
 
 Anduril®, Lattice®, and Lattice SDK® are trademarks of Anduril Industries.
 This project is an independent integration sample, not an Anduril product.
+
+## Contact
+
+Polybolos Institute builds integrated C2 systems for contested operations.
+
+For production deployment, integration guidance, and commercial licensing:
+
+mark.brown@polybolos.org · https://www.polybolos.org
