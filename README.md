@@ -4,24 +4,9 @@
 
 > Independent Polybolos Institute sample (not an Anduril product).  
 > OASW(SO/LIC) Jul 2026 **Selected** (technically meritorious; under evaluation/consideration).  
-> AFRL Apr 2026: RQ portfolio share (Col Rondeau) + Control Science Center exchange (Weintraub; “state of the art” / partnership / SBIR language in correspondence). Attributed dialogue.  
+> 1BCT/82nd Airborne Operation Epic Fury challenge (GoColosseum): **Submitted**.  
+> AFRL Apr 2026: RQ portfolio share (Col Rondeau) + Control Science Center exchange (Weintraub; "state of the art" / partnership / SBIR language in correspondence). Attributed dialogue.  
 > TRL 5 Decision-C2 lineage · Lattice sandbox / interop sample · Inquiries: mark.brown@polybolos.org · CAGE 1AVY9 · UEI RUSHH9B2UQV3
-
-Standalone **door** that listens to MAVLink vehicle telemetry and publishes
-Anduril Lattice World Model entities. No C2 core, no ROE, no engagement authority.
-
-Built by [Polybolos Institute](https://www.polybolos.org) for Lattice sandbox
-interoperability demos. Complements (does not replace) HOTL / sealed Core.
-**Independent sample - not an Anduril product.**
-
-| Direction | Behavior |
-|-----------|----------|
-| **Up** | MAVLink `GLOBAL_POSITION_INT` → Lattice entity PUT |
-| **Sim** | Synthetic track without a vehicle (`--sim`) for sandbox smoke |
-| **Auth** | OAuth client-credentials + Sandboxes Bearer (`--auth-only`) |
-
-**Primary implementation: C++ (WinHTTP)** - same TLS/auth path proven by Polybolos
-HOTL against Lattice sandboxes. A thin Python reference remains under `bridge/`.
 
 ## Not in scope
 
